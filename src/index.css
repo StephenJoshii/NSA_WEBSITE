@@ -1,0 +1,127 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header */
+.header {
+  background-color: #007acc;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.navbar-item {
+  margin: 0 20px;
+}
+
+.navbar-item a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Home */
+.home {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.home h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: #007acc;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.hero-section h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+/* About Section */
+.about-section {
+  padding: 40px 0;
+}
+
+.about-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Events Section */
+.events-section {
+  padding: 40px 0;
+}
+
+.events-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.events-section ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.events-section li {
+  margin-bottom: 10px;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 40px 0;
+}
+
+.contact-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 14px;
+}
